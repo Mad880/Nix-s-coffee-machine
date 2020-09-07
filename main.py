@@ -17,4 +17,4 @@ if __name__ == '__main__':
 		bot.load_extension(extension)
 
 keep_alive()
-bot.run("NzUyMjI5OTU2MzgxMTc5OTc1.X1UmvQ.kpSeag3K7txcN-4MCn1bCgZvq-A")
+bot.run("no u")
