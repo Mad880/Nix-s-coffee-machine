@@ -26,6 +26,18 @@ class bruh(commands.Cog):
                 embed = discord.Embed(title="hehe coffee get it?", color=0xA52A2A)
                 embed.set_image(url=res["file"])
                 await ctx.send(embed=embed)
+
+    @commands.command()
+    async def duck(self, ctx):
+        """Get a random picture of a duck"""
+        async with aiohttp.ClientSession() as cs:
+            async with cs.get("https://random-d.uk/api/v1/random") as r:
+                res = await r.json()
+                embed = discord.Embed(title="A cute ducky just appeared", color=0xFFFF00)
+                embed.set_image(url=res['url'])
+                embed.set_footer(text=f"Ducky requested by {ctx.author.display_name}")
+
+                await ctx.send(embed=embed)
                 
 def setup(bot):
 	bot.add_cog(bruh(bot))
