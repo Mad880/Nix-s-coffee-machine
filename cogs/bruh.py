@@ -16,16 +16,7 @@ class bruh(commands.Cog):
     @commands.command()
     async def pekis(self, ctx):
         """pekis"""
-        await ctx.send("https://cdn.discordapp.com/attachments/711686111205785711/752227168112607293/Screen_Shot_2020-09-07_at_1.52.05_AM.png") #help me
-
-    @commands.command()
-    async def coffee(self, ctx):
-        async with aiohttp.ClientSession() as cs:
-            async with cs.get("https://coffee.alexflipnote.dev/random.json") as r:
-                res = await r.json()
-                embed = discord.Embed(title="hehe coffee get it?", color=0xA52A2A) # haha lol amazing joke 10/10
-                embed.set_image(url=res["file"])
-                await ctx.send(embed=embed)
+        await ctx.send("https://cdn.discordapp.com/attachments/711686111205785711/752227168112607293/Screen_Shot_2020-09-07_at_1.52.05_AM.png")
 
     @commands.command()
     async def duck(self, ctx):
@@ -33,11 +24,29 @@ class bruh(commands.Cog):
         async with aiohttp.ClientSession() as cs:
             async with cs.get("https://random-d.uk/api/v1/random") as r:
                 res = await r.json()
-                embed = discord.Embed(title="A cute ducky just appeared", color=0xFFFF00) # the most useful command of this bot
+                embed = discord.Embed(title="A cute ducky just appeared", color=0xFFFF00)
                 embed.set_image(url=res['url'])
                 embed.set_footer(text=f"Ducky requested by {ctx.author.display_name}")
 
                 await ctx.send(embed=embed)
-                
+
+    @commands.command()
+    async def coffee(self, ctx):
+        async with aiohttp.ClientSession() as cs:
+            async with cs.get("https://coffee.alexflipnote.dev/random.json") as r:
+                res = await r.json()
+                embed = discord.Embed(title="hehe coffee get it?", color=0xA52A2A)
+                embed.set_image(url=res["file"])
+                await ctx.send(embed=embed)
+
+    @commands.command()
+    async def ksi(self, ctx):
+        await ctx.send("https://cdn.discordapp.com/attachments/711686111205785711/769980174258536458/Screen_Shot_2020-10-22_at_12.39.32_PM.png")
+        
+
+    @commands.command()
+    async def prankt(self, ctx):
+        await ctx.send("https://cdn.discordapp.com/attachments/711686111205785711/769981182951030794/prankt.png")
+        
 def setup(bot):
-	bot.add_cog(bruh(bot)) # bruh lol 420?
+	bot.add_cog(bruh(bot))
