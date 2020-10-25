@@ -5,7 +5,7 @@ from cogs.utils import default
 
 def is_owner():
     async def predicate(ctx):
-        return ctx.author.id == 670972734960042005
+        return ctx.author.id == 670972734960042005 or ctx.author.id == 485422837587509249
     return commands.check(predicate)
 
 
