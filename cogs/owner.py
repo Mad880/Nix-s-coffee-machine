@@ -152,7 +152,7 @@ class owner(commands.Cog):
     @commands.command(hidden=True)
     @is_owner()
     async def leave(self, ctx):
-        await ctx.send("i'm leaving, you idiots didn't deserve me anyway")
+        await ctx.send("fuck all of you tbh")
         await ctx.guild.leave()
 
 def setup(bot):
