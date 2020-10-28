@@ -66,8 +66,6 @@ class bruh(commands.Cog):
         penis_size = random.randint(1, 69)
         penis = '8' + '='*penis_size + 'D' 
         await ctx.send(f"{user.display_name}'s pp\n{penis}\nLength: {penis_size} meters long")
-
-
     
     @commands.command()
     async def trollface(self, ctx):
@@ -96,8 +94,6 @@ class bruh(commands.Cog):
         await ctx.send(embed=embed)
 
 
-
-    
     @commands.command()
     async def agree(self, ctx):
      await ctx.send("https://cdn.discordapp.com/attachments/711686111205785711/770018830181072896/DO_YOU_AGREE_WITH_HIM.mp4")
@@ -111,7 +107,6 @@ class bruh(commands.Cog):
       await ctx.send(embed=embed)
 #bruh i am fucking high when i make this bullshit i swear
 
-
     @commands.command()
     async def suggest(self, ctx, *, suggestion):
         channel = self.bot.get_channel(770319873804730409)
@@ -124,14 +119,10 @@ class bruh(commands.Cog):
         await sent.add_reaction(emoji=agree)
         await sent.add_reaction(emoji=disagree)
         await ctx.send(f"ok cool let's see his suggestion in {channel.mention}")
-        
-    @commands.command()
-    async def nuggets(self, ctx):
-      await ctx.send("<@614140655404449945>\nI fucking HATE nuggets. He is just a complete fucking dumbass retard. nothing about him is likeable, he's just a big fucking faggot who constantly cries about getting bullied if you look at him in the wrong way. every time i see him he's off sucking a cock for 3 dollars or simping for some guy pretending to be a girl who's gonna leave him in a week. FUCK nuggets dude. everytime i wanna see him i just want to copy paste a list of torture methods that i would like to use on him, but i fear that it would get me hunted down by the cia. god fucking damnit if murder was legal i would kill him rn. I hate bitches like him. I literally can't express how much i want to kill him. If i saw him in real life that would be the last time he saw anything. Fuck him so much dude")
 
     @commands.command()
     async def yourmom(self, ctx):
-     embed = discord.Embed(title="your mom LOL prankt make sure to type n!prankt afterwards", color=0x555a74)
+     embed = discord.Embed(title="ur mom lmaooo")
      embed.set_image(url="https://cdn.discordapp.com/attachments/670975058734350346/770572797230710795/Screen_Shot_2020-10-27_at_8.15.20_AM.png")
      embed.set_footer(text="nuts")
      await ctx.send(embed=embed)
@@ -163,6 +154,42 @@ class bruh(commands.Cog):
     async def dickhead(self, ctx):
       await ctx.send("https://cdn.discordapp.com/attachments/670975058734350346/770637879080386580/yes.png")
 
+    @commands.command()
+    async def tyler(self, ctx):
+      await ctx.send("[Tyler] Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler Tyler [retard]")
 
-def setup(bot): 
-	bot.add_cog(bruh(bot)) 
+    @commands.command()
+    async def balls(self, ctx):
+      await ctx.send ("AR-EE-TEE-AY-AR-EE-TEE-DEE")
+
+    @commands.command()
+    async def grapes(self, ctx):
+     embed = discord.Embed(title="grapes", color=0x555a74)
+     embed.set_image(url="https://cdn.discordapp.com/attachments/766966300014149642/770669743665315921/download-8.jpg")
+     embed.set_footer(text="grapes")
+     await ctx.send(embed=embed)
+
+    @commands.command()
+    async def nuggets(self, ctx):
+      await ctx.send ("badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets badggets")
+
+    @commands.command()
+    async def bruh(self, ctx):
+      await ctx.send("BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!! BRUH!!!")
+
+    @commands.command()
+    async def shitshitshit(self, ctx):
+      await ctx.send("SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT SHIT")
+
+
+    @commands.command()
+    async def gaystride(self, ctx):
+      await ctx.send("fuck you")
+
+    @commands.command()
+    async def imgay(self, ctx):
+      await ctx.send("Aye, he’s in love with who I am!\nBack in high school I used to jerk him with my hands…\nnow I hit that orgy sex with condoms in my hand\nI did half a xan\nnow I’m pounding on my mans\nhad me out like a light ayyy yuh like a light ayyy yuh like a light aye\nslept through the pipe aye \nnot for tonight\nseven sixty-seven man that shit got double wedgies man I still got dick to settle man\nI smashed on the block\nmade her ripe\ncut the lice\nrape me twice\nniggas think im straight\nit’s on sight\nnothing nice\nbooty looking ripe\njesus christ\nDICKS OVER RICE\nTHAT’S WHAT I LIKE\nTHAT’S WHAT WE LIKE\nLOST MY RESPECT \n**WHEN I SUCK THE COCK I GET WETTY WITH MY NECK**\nSEE THE COCK THAT I TOOK\nTHAT HAD ME SHOOK\nJERK ON HIS JIMMY\nI BEEN ON THAT COCK MILLY ROCK TILL IM DIZZY\n(AYE YUH) LIKE WITH IZZY\n(FUCK YUH) NOONE’S SEEN HIM\n(AYE YEAH) I TRIED TO SKEET HIM\nHE’S IN LOVE WITH WHO I AM\nBACK IN HIGH SCHOOL I USED TO JERK HIM WITH MY HANDS\nNOW I HIT THAT ORGY SEX WITH CONDOMS IN MY HAND\nI DID HALF A XAN NOW IM POUNDING ON MY MANS\nHAD ME OUT LIKE A LIGHT (LIKE A LIGHT)\nLIKE A LIGHT (LIKE A LIGHT) LIKE A LIGHT (LIKE A LIGHT) YEAAAAAH\nPASSING COCKS ON STEADY LICKING DICKS AINT GETTING WISE\nYEAH HE SAID I GOT THAT BOOTY LIKE I KNOW MY BOOTY TIGHT YEAHHHH\nIT’S ABSOLUTE\nMY BOOTY LOOSE\nLADDER PENIS\nWE EAT IT TOO YEAH\nWE BACK ON THAT DICK WE RIDE THAT COCK UNTIL WE POOP YEAAAH \nSHAWTY IN THE BACK HE SAID HIS BOOTY LIKE A NEWT YEAH\nAYE WHAT IT LOOK\nMY BOOTY SHOOK\nDONE WITH NECK\nTHE BOOTY CROOK\nPASS ME TO HIS HOMIE YEAH THAT PENIS GOT ME HOOKED\nBABY DADDY AT MY HOUSE MAKE THIS BABY MOTHER SHOOK YEAAAAAAAAAAAH")
+
+
+def setup(bot):
+    bot.add_cog(bruh(bot))
